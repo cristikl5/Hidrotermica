@@ -11,8 +11,8 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "Plumber - Servicii Profesionale de Instalații",
-  description: "Servicii profesionale de instalații termice",
+  title: "Hidrotermica - Servicii Profesionale de Instalații Termice",
+  description: "Servicii profesionale de instalații termice Moldova",
   icons: {
     icon: "/logo.png",
   },

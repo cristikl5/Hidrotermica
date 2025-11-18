@@ -7,69 +7,13 @@ const ServicesSection = () => {
 
   const services = [
     {
-      title: t.services.electrician.title,
-      description: t.services.electrician.description,
-      bgColor: "bg-white",
-      textColor: "text-gray-900",
-      icon: "⚡",
-      gradient: "from-yellow-400 to-orange-500",
-    },
-    {
-      title: t.services.plumbing.title,
-      description: t.services.plumbing.description,
-      bgColor: "bg-gradient-to-br from-[#004B87] to-[#003a6e]",
-      textColor: "text-white",
-      icon: "🔧",
-      gradient: "from-[#004B87] to-[#003a6e]",
-      featured: true,
-    },
-    {
-      title: t.services.doorWindows.title,
-      description: t.services.doorWindows.description,
-      bgColor: "bg-white",
-      textColor: "text-gray-900",
-      icon: "🚪",
-      gradient: "from-blue-400 to-indigo-500",
-    },
-    {
-      title: t.services.homePainting.title,
-      description: t.services.homePainting.description,
-      bgColor: "bg-white",
-      textColor: "text-gray-900",
-      icon: "🎨",
-      gradient: "from-pink-400 to-purple-500",
-    },
-    {
-      title: t.services.locksmith.title,
-      description: t.services.locksmith.description,
-      bgColor: "bg-white",
-      textColor: "text-gray-900",
-      icon: "🔑",
-      gradient: "from-green-400 to-teal-500",
-    },
-    {
-      title: t.services.bathroom.title,
-      description: t.services.bathroom.description,
-      bgColor: "bg-white",
-      textColor: "text-gray-900",
-      icon: "🚿",
-      gradient: "from-cyan-400 to-blue-500",
-    },
-    {
-      title: t.services.remodeling.title,
-      description: t.services.remodeling.description,
-      bgColor: "bg-white",
-      textColor: "text-gray-900",
-      icon: "🏠",
-      gradient: "from-orange-400 to-red-500",
-    },
-    {
       title: t.services.thermalInstallations.title,
       description: t.services.thermalInstallations.description,
-      bgColor: "bg-white",
-      textColor: "text-gray-900",
+      bgColor: "bg-gradient-to-br from-[#004B87] to-[#003a6e]",
+      textColor: "text-white",
       icon: "🔥",
       gradient: "from-orange-300 to-red-400",
+      featured: true,
     },
   ];
 
@@ -92,7 +36,7 @@ const ServicesSection = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-1 max-w-2xl mx-auto gap-6">
           {services.map((service, index) => (
             <div
               key={index}
@@ -129,20 +73,6 @@ const ServicesSection = () => {
               >
                 {service.description}
               </p>
-
-              <button
-                className={`flex items-center gap-2 text-sm font-bold relative z-10 ${
-                  service.featured ? "text-white" : "text-gray-900"
-                } hover:gap-3 transition-all group-hover:translate-x-2`}
-              >
-                {t.services.readMore} <span className="text-lg">→</span>
-              </button>
-
-              {service.featured && (
-                <div className="absolute bottom-4 right-4 w-14 h-14 bg-[#C4E538] rounded-full flex items-center justify-center shadow-xl group-hover:scale-125 group-hover:rotate-180 transition-all duration-500">
-                  <span className="text-3xl font-bold">+</span>
-                </div>
-              )}
 
               {/* Glassmorphism Badge on Hover */}
               <div className="absolute top-3 right-3 bg-white/20 backdrop-blur-sm px-3 py-1 rounded-full text-xs font-bold opacity-0 group-hover:opacity-100 transition-opacity duration-300">
@@ -204,11 +134,6 @@ const ServicesSection = () => {
           </div>
         </div>
 
-        <div className="text-center mt-16">
-          <button className="bg-gradient-to-r from-[#C4E538] to-[#b3d130] text-white px-12 py-4 rounded-full font-bold hover:shadow-2xl transition-all duration-300 hover:scale-110 transform hover:rotate-2">
-            {t.services.viewAllServices}
-          </button>
-        </div>
       </div>
     </section>
   );
