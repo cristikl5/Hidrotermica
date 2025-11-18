@@ -39,15 +39,9 @@ const MobileMenu = () => {
         aria-label="Toggle menu"
       >
         <div className="w-6 flex flex-col gap-1.5">
-          <span
-            className="block h-0.5 w-full bg-gray-900 transition-all duration-300 ease-in-out"
-          />
-          <span
-            className="block h-0.5 w-full bg-gray-900 transition-all duration-300 ease-in-out"
-          />
-          <span
-            className="block h-0.5 w-full bg-gray-900 transition-all duration-300 ease-in-out"
-          />
+          <span className="block h-0.5 w-full bg-gray-900 transition-all duration-300 ease-in-out" />
+          <span className="block h-0.5 w-full bg-gray-900 transition-all duration-300 ease-in-out" />
+          <span className="block h-0.5 w-full bg-gray-900 transition-all duration-300 ease-in-out" />
         </div>
       </button>
 
@@ -72,7 +66,7 @@ const MobileMenu = () => {
           className={`h-full w-full max-w-md bg-white shadow-2xl transform transition-transform duration-300 ease-out ${
             isOpen ? "translate-x-0" : "translate-x-full"
           }`}
-          onClick={(e) => e.stopPropagation()}
+          onClick={e => e.stopPropagation()}
         >
           <div className="flex flex-col h-full">
             {/* Menu Header */}
@@ -128,13 +122,6 @@ const MobileMenu = () => {
                   className="px-6 py-3.5 bg-[#C4E538] text-white rounded-full font-bold text-center hover:bg-[#b3d130] transition-all shadow-sm active:scale-95"
                 >
                   {t.header.about}
-                </a>
-                <a
-                  href="#pages"
-                  onClick={closeMenu}
-                  className="px-6 py-3.5 bg-[#C4E538] text-white rounded-full font-bold text-center hover:bg-[#b3d130] transition-all shadow-sm active:scale-95"
-                >
-                  {t.header.pages}
                 </a>
                 <a
                   href="#contact"
