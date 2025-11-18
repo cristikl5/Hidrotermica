@@ -117,13 +117,6 @@ const MobileMenu = () => {
                   {t.header.services}
                 </a>
                 <a
-                  href="#about"
-                  onClick={closeMenu}
-                  className="px-6 py-3.5 bg-[#C4E538] text-white rounded-full font-bold text-center hover:bg-[#b3d130] transition-all shadow-sm active:scale-95"
-                >
-                  {t.header.about}
-                </a>
-                <a
                   href="#contact"
                   onClick={closeMenu}
                   className="px-6 py-3.5 bg-[#C4E538] text-white rounded-full font-bold text-center hover:bg-[#b3d130] transition-all shadow-sm active:scale-95"

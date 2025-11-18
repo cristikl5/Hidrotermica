@@ -54,13 +54,6 @@ const Header = () => {
             {t.header.services}
           </a>
           <a
-            href="#about"
-            onClick={e => handleSmoothScroll(e, "about")}
-            className="px-6 py-2.5 border-2 border-gray-300 text-gray-700 rounded-full font-medium hover:border-[#C4E538] hover:text-[#004B87] transition-all duration-300 hover:shadow-md"
-          >
-            {t.header.about}
-          </a>
-          <a
             href="#contact"
             onClick={e => handleSmoothScroll(e, "contact")}
             className="px-6 py-2.5 border-2 border-gray-300 text-gray-700 rounded-full font-medium hover:border-[#C4E538] hover:text-[#004B87] transition-all duration-300 hover:shadow-md"
