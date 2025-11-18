@@ -29,7 +29,7 @@ const Header = () => {
           className="flex items-center cursor-pointer hover:opacity-80 transition-opacity"
         >
           <Image
-            src="/logotest1.png"
+            src="/logo.png"
             alt="ECOTEHNICA - Servicii Sanitare Profesionale"
             width={200}
             height={60}
