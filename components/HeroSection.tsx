@@ -10,7 +10,7 @@ const HeroSection = () => {
   return (
     <section
       id="home"
-      className="relative bg-gradient-to-br from-[#004B87] via-[#003a6e] to-[#002952] py-20 px-6 overflow-hidden"
+      className="relative bg-gradient-to-br from-[#1e3a8a] via-[#1e3a8a] to-[#0f172a] py-20 px-6 overflow-hidden"
     >
       {/* Decorative Background Shapes */}
       <DecorativeShapes />
@@ -22,11 +22,11 @@ const HeroSection = () => {
             {t.hero.title}
           </h1>
 
-          <div className="bg-gradient-to-br from-[#C4E538] to-[#b3d130] text-gray-900 p-8 rounded-2xl shadow-2xl space-y-4 backdrop-blur-sm hover:shadow-3xl transition-all duration-500 hover:scale-105 transform">
+          <div className="bg-gradient-to-br from-[#3b82f6] to-[#3b82f6] text-white p-8 rounded-2xl shadow-2xl space-y-4 backdrop-blur-sm hover:shadow-3xl transition-all duration-500 hover:scale-105 transform">
             <p className="text-sm font-semibold leading-relaxed">
               {t.hero.description}
             </p>
-            <button className="bg-[#004B87] border-2 border-white text-white px-8 py-3 rounded-full font-bold hover:bg-[#003766] transition-all duration-300 hover:shadow-xl hover:scale-105 transform">
+            <button className="bg-[#1e3a8a] border-2 border-white text-white px-8 py-3 rounded-full font-bold hover:bg-[#0f172a] transition-all duration-300 hover:shadow-xl hover:scale-105 transform">
               {t.hero.viewAllServices}
             </button>
           </div>
@@ -34,7 +34,7 @@ const HeroSection = () => {
 
         {/* Right Content - Floating Image with Glassmorphism */}
         <div className="relative animate-float">
-          <div className="bg-white/10 backdrop-blur-md rounded-3xl p-8 shadow-2xl border border-white/20 hover:border-[#C4E538]/50 transition-all duration-500">
+          <div className="bg-white/10 backdrop-blur-md rounded-3xl p-8 shadow-2xl border border-white/20 hover:border-[#3b82f6]/50 transition-all duration-500">
             <div className="w-full h-96 bg-gradient-to-br from-gray-200 to-gray-100 rounded-2xl relative overflow-hidden shadow-inner group">
               <Image
                 src="https://images.unsplash.com/photo-1621905251189-08b45d6a269e?w=800&q=80"
@@ -45,15 +45,15 @@ const HeroSection = () => {
               {/* Floating Info Card with Glassmorphism */}
               <div className="absolute top-4 right-4 bg-white/95 backdrop-blur-md p-4 rounded-xl shadow-2xl border border-white/40 hover:shadow-3xl transition-all duration-300 hover:scale-105 transform">
                 <p className="text-xs text-gray-700 font-bold flex items-center gap-2">
-                  <span className="w-2 h-2 bg-[#C4E538] rounded-full animate-pulse"></span>
+                  <span className="w-2 h-2 bg-[#3b82f6] rounded-full animate-pulse"></span>
                   {t.hero.repairingFixing}
                 </p>
                 <p className="text-xs text-gray-700 font-bold flex items-center gap-2 mt-2">
-                  <span className="w-2 h-2 bg-[#004B87] rounded-full animate-pulse"></span>
+                  <span className="w-2 h-2 bg-[#1e3a8a] rounded-full animate-pulse"></span>
                   {t.hero.emergencyService}
                 </p>
                 <p className="text-xs text-gray-700 font-bold flex items-center gap-2 mt-2">
-                  <span className="w-2 h-2 bg-[#C4E538] rounded-full animate-pulse"></span>
+                  <span className="w-2 h-2 bg-[#3b82f6] rounded-full animate-pulse"></span>
                   {t.hero.consultation}
                 </p>
               </div>

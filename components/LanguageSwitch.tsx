@@ -42,7 +42,7 @@ const LanguageSwitch = () => {
       {/* Trigger Button */}
       <button
         onClick={() => setIsOpen(!isOpen)}
-        className="px-6 py-2.5 border-2 border-gray-300 text-gray-700 rounded-full font-medium hover:border-[#C4E538] hover:text-[#004B87] transition-all duration-300 hover:shadow-md flex items-center gap-2 focus:outline-none focus:border-[#C4E538]"
+        className="px-6 py-2.5 border-2 border-gray-300 text-gray-700 rounded-full font-medium hover:border-[#3b82f6] hover:text-[#1e3a8a] transition-all duration-300 hover:shadow-md flex items-center gap-2 focus:outline-none focus:border-[#3b82f6]"
         aria-label="Select language"
         aria-expanded={isOpen}
       >
@@ -65,15 +65,15 @@ const LanguageSwitch = () => {
             <button
               key={lang.value}
               onClick={() => handleLanguageSelect(lang.value)}
-              className={`w-full px-6 py-3 hover:bg-[#C4E538]/10 transition-colors cursor-pointer flex items-center gap-2 text-left ${
-                language === lang.value ? 'bg-[#C4E538]/10 text-[#004B87] font-semibold' : 'text-gray-700'
+              className={`w-full px-6 py-3 hover:bg-[#3b82f6]/10 transition-colors cursor-pointer flex items-center gap-2 text-left ${
+                language === lang.value ? 'bg-[#3b82f6]/10 text-[#1e3a8a] font-semibold' : 'text-gray-700'
               }`}
             >
               <span className="text-lg">{lang.flag}</span>
               <span>{lang.label}</span>
               {language === lang.value && (
                 <svg
-                  className="w-4 h-4 ml-auto text-[#C4E538]"
+                  className="w-4 h-4 ml-auto text-[#3b82f6]"
                   fill="currentColor"
                   viewBox="0 0 20 20"
                 >

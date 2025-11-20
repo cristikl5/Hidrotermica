@@ -105,21 +105,21 @@ const MobileMenu = () => {
                 <a
                   href="#"
                   onClick={closeMenu}
-                  className="px-6 py-3.5 bg-[#C4E538] text-white rounded-full font-bold text-center hover:bg-[#b3d130] transition-all shadow-sm active:scale-95"
+                  className="px-6 py-3.5 bg-[#3b82f6] text-white rounded-full font-bold text-center hover:bg-[#2563eb] transition-all shadow-sm active:scale-95"
                 >
                   {t.header.home}
                 </a>
                 <a
                   href="#services"
                   onClick={closeMenu}
-                  className="px-6 py-3.5 bg-[#C4E538] text-white rounded-full font-bold text-center hover:bg-[#b3d130] transition-all shadow-sm active:scale-95"
+                  className="px-6 py-3.5 bg-[#3b82f6] text-white rounded-full font-bold text-center hover:bg-[#2563eb] transition-all shadow-sm active:scale-95"
                 >
                   {t.header.services}
                 </a>
                 <a
                   href="#contact"
                   onClick={closeMenu}
-                  className="px-6 py-3.5 bg-[#C4E538] text-white rounded-full font-bold text-center hover:bg-[#b3d130] transition-all shadow-sm active:scale-95"
+                  className="px-6 py-3.5 bg-[#3b82f6] text-white rounded-full font-bold text-center hover:bg-[#2563eb] transition-all shadow-sm active:scale-95"
                 >
                   {t.header.contact}
                 </a>
@@ -130,7 +130,7 @@ const MobileMenu = () => {
             <div className="px-6 pb-6 bg-white mt-auto">
               <button
                 onClick={closeMenu}
-                className="w-full bg-gradient-to-r from-[#C4E538] to-[#b3d130] text-white px-6 py-4 rounded-full font-bold text-lg shadow-lg hover:shadow-xl transition-all duration-300 active:scale-95"
+                className="w-full bg-gradient-to-r from-[#3b82f6] to-[#2563eb] text-white px-6 py-4 rounded-full font-bold text-lg shadow-lg hover:shadow-xl transition-all duration-300 active:scale-95"
               >
                 {t.header.bookAppointment}
               </button>

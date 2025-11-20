@@ -30,7 +30,7 @@ const Header = () => {
         >
           <Image
             src="/logo.png"
-            alt="ECOTEHNICA - Servicii Sanitare Profesionale"
+            alt="ECOTEHNICA - Servicii Termice Profesionale"
             width={200}
             height={60}
             priority
@@ -42,21 +42,21 @@ const Header = () => {
           <a
             href="#home"
             onClick={e => handleSmoothScroll(e, "home")}
-            className="px-6 py-2.5 bg-[#C4E538] text-white rounded-full font-semibold hover:bg-[#b3d130] transition-all duration-300 hover:shadow-lg hover:scale-105"
+            className="px-6 py-2.5 bg-[#3b82f6] text-white rounded-full font-semibold hover:bg-[#2563eb] transition-all duration-300 hover:shadow-lg hover:scale-105"
           >
             {t.header.home}
           </a>
           <a
             href="#services"
             onClick={e => handleSmoothScroll(e, "services")}
-            className="px-6 py-2.5 border-2 border-gray-300 text-gray-700 rounded-full font-medium hover:border-[#C4E538] hover:text-[#004B87] transition-all duration-300 hover:shadow-md"
+            className="px-6 py-2.5 border-2 border-gray-300 text-gray-700 rounded-full font-medium hover:border-[#3b82f6] hover:text-[#1e3a8a] transition-all duration-300 hover:shadow-md"
           >
             {t.header.services}
           </a>
           <a
             href="#contact"
             onClick={e => handleSmoothScroll(e, "contact")}
-            className="px-6 py-2.5 border-2 border-gray-300 text-gray-700 rounded-full font-medium hover:border-[#C4E538] hover:text-[#004B87] transition-all duration-300 hover:shadow-md"
+            className="px-6 py-2.5 border-2 border-gray-300 text-gray-700 rounded-full font-medium hover:border-[#3b82f6] hover:text-[#1e3a8a] transition-all duration-300 hover:shadow-md"
           >
             {t.header.contact}
           </a>
@@ -67,7 +67,7 @@ const Header = () => {
           <LanguageSwitch />
 
           {/* CTA Button - Hidden on Mobile */}
-          <button className="hidden md:block bg-gradient-to-r from-[#C4E538] to-[#b3d130] text-white px-8 py-3 rounded-full font-bold hover:shadow-xl transition-all duration-300 hover:scale-105 transform">
+          <button className="hidden md:block bg-gradient-to-r from-[#3b82f6] to-[#2563eb] text-white px-8 py-3 rounded-full font-bold hover:shadow-xl transition-all duration-300 hover:scale-105 transform">
             {t.header.bookAppointment}
           </button>
 

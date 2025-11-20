@@ -9,7 +9,7 @@ const ServicesSection = () => {
     {
       title: t.services.thermalInstallations.title,
       description: t.services.thermalInstallations.description,
-      bgColor: "bg-gradient-to-br from-[#004B87] to-[#003a6e]",
+      bgColor: "bg-gradient-to-br from-[#1e3a8a] to-[#0f172a]",
       textColor: "text-white",
       icon: "🔥",
       gradient: "from-orange-300 to-red-400",
@@ -20,15 +20,15 @@ const ServicesSection = () => {
   return (
     <section
       id="services"
-      className="py-20 px-6 bg-gradient-to-b from-gray-50 to-white relative overflow-hidden"
+      className="py-20 px-6 bg-gradient-to-b from-[#f8fafc] to-white relative overflow-hidden"
     >
       {/* Decorative Background Elements */}
-      <div className="absolute top-20 right-10 w-64 h-64 bg-[#C4E538]/5 rounded-full blur-3xl"></div>
-      <div className="absolute bottom-20 left-10 w-64 h-64 bg-[#004B87]/5 rounded-full blur-3xl"></div>
+      <div className="absolute top-20 right-10 w-64 h-64 bg-[#3b82f6]/5 rounded-full blur-3xl"></div>
+      <div className="absolute bottom-20 left-10 w-64 h-64 bg-[#1e3a8a]/5 rounded-full blur-3xl"></div>
 
       <div className="max-w-7xl mx-auto relative z-10">
         <div className="text-center mb-16 animate-fade-in-up">
-          <h2 className="text-5xl font-bold text-gray-900 mb-4 bg-gradient-to-r from-[#004B87] to-[#006BB8] bg-clip-text text-transparent">
+          <h2 className="text-5xl font-bold text-gray-900 mb-4 bg-gradient-to-r from-[#1e3a8a] to-[#60a5fa] bg-clip-text text-transparent">
             {t.services.title}
           </h2>
           <p className="text-gray-600 max-w-2xl mx-auto font-medium text-lg">
@@ -43,7 +43,7 @@ const ServicesSection = () => {
               className={`${service.bgColor} ${
                 service.textColor
               } p-6 rounded-2xl shadow-lg hover:shadow-3xl transition-all duration-500 relative overflow-hidden group card-3d border cursor-pointer ${
-                service.featured ? "border-[#C4E538]/30" : "border-gray-100"
+                service.featured ? "border-[#3b82f6]/30" : "border-gray-100"
               }`}
               style={{ animationDelay: `${index * 100}ms` }}
             >
@@ -85,7 +85,7 @@ const ServicesSection = () => {
         {/* Pricing Table Section */}
         <div className="mt-20">
           <div className="text-center mb-12">
-            <h3 className="text-3xl font-bold text-gray-900 mb-4 bg-gradient-to-r from-[#004B87] to-[#006BB8] bg-clip-text text-transparent">
+            <h3 className="text-3xl font-bold text-gray-900 mb-4 bg-gradient-to-r from-[#1e3a8a] to-[#60a5fa] bg-clip-text text-transparent">
               {t.services.thermalInstallations.pricing.title}
             </h3>
           </div>
@@ -93,7 +93,7 @@ const ServicesSection = () => {
           <div className="bg-white rounded-2xl shadow-xl overflow-hidden border border-gray-100">
             <div className="overflow-x-auto">
               <table className="w-full">
-                <thead className="bg-gradient-to-r from-[#004B87] to-[#006BB8] text-white">
+                <thead className="bg-gradient-to-r from-[#1e3a8a] to-[#60a5fa] text-white">
                   <tr>
                     <th className="px-6 py-4 text-left font-bold text-sm uppercase tracking-wider">
                       {t.services.thermalInstallations.pricing.serviceColumn}
@@ -121,7 +121,7 @@ const ServicesSection = () => {
                           )}
                         </td>
                         <td className="px-6 py-4">
-                          <div className="font-bold text-[#004B87]">
+                          <div className="font-bold text-[#1e3a8a]">
                             {service.price}
                           </div>
                         </td>

@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   title: "Hidrotermica - Servicii Profesionale de Instalații Termice",
   description: "Servicii profesionale de instalații termice Moldova",
   icons: {
-    icon: "/logo.png",
+    icon: "/favicon-removebg-preview.png",
   },
 };
 

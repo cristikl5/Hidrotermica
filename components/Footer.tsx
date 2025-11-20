@@ -6,7 +6,7 @@ const Footer = () => {
   const { t } = useLanguage();
 
   return (
-    <footer className="bg-[#004B87] text-white py-12 px-6">
+    <footer className="bg-[#1e3a8a] text-white py-12 px-6">
       <div className="max-w-7xl mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
           <div>
@@ -33,22 +33,22 @@ const Footer = () => {
             </h3>
             <ul className="space-y-2 text-sm text-gray-300">
               <li>
-                <a href="#" className="hover:text-[#C4E538] transition">
+                <a href="#" className="hover:text-[#3b82f6] transition">
                   {t.footer.bathroomService}
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-[#C4E538] transition">
+                <a href="#" className="hover:text-[#3b82f6] transition">
                   {t.footer.heatingService}
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-[#C4E538] transition">
+                <a href="#" className="hover:text-[#3b82f6] transition">
                   {t.footer.kitchenService}
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-[#C4E538] transition">
+                <a href="#" className="hover:text-[#3b82f6] transition">
                   {t.footer.plumbingService}
                 </a>
               </li>
@@ -59,22 +59,22 @@ const Footer = () => {
             <h3 className="text-xl font-bold mb-4">{t.footer.companyFaq}</h3>
             <ul className="space-y-2 text-sm text-gray-300">
               <li>
-                <a href="#" className="hover:text-[#C4E538] transition">
+                <a href="#" className="hover:text-[#3b82f6] transition">
                   {t.footer.aboutUs}
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-[#C4E538] transition">
+                <a href="#" className="hover:text-[#3b82f6] transition">
                   {t.footer.plumbingService}
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-[#C4E538] transition">
+                <a href="#" className="hover:text-[#3b82f6] transition">
                   {t.footer.emergencyServiceLink}
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-[#C4E538] transition">
+                <a href="#" className="hover:text-[#3b82f6] transition">
                   {t.footer.testimonials}
                 </a>
               </li>
@@ -87,7 +87,7 @@ const Footer = () => {
             </h3>
             <div className="space-y-3">
               <p className="text-sm text-gray-300">{t.footer.emergency24}</p>
-              <div className="flex items-center gap-2 bg-white text-[#004B87] p-3 rounded-lg">
+              <div className="flex items-center gap-2 bg-white text-[#1e3a8a] p-3 rounded-lg">
                 <span>📞</span>
                 <div>
                   <p className="text-xs">{t.footer.callNow}</p>
@@ -103,25 +103,25 @@ const Footer = () => {
           <div className="flex gap-4">
             <a
               href="#"
-              className="w-8 h-8 bg-white text-[#004B87] rounded-full flex items-center justify-center hover:bg-[#C4E538] transition"
+              className="w-8 h-8 bg-white text-[#1e3a8a] rounded-full flex items-center justify-center hover:bg-[#3b82f6] transition"
             >
               f
             </a>
             <a
               href="#"
-              className="w-8 h-8 bg-white text-[#004B87] rounded-full flex items-center justify-center hover:bg-[#C4E538] transition"
+              className="w-8 h-8 bg-white text-[#1e3a8a] rounded-full flex items-center justify-center hover:bg-[#3b82f6] transition"
             >
               t
             </a>
             <a
               href="#"
-              className="w-8 h-8 bg-white text-[#004B87] rounded-full flex items-center justify-center hover:bg-[#C4E538] transition"
+              className="w-8 h-8 bg-white text-[#1e3a8a] rounded-full flex items-center justify-center hover:bg-[#3b82f6] transition"
             >
               in
             </a>
             <a
               href="#"
-              className="w-8 h-8 bg-white text-[#004B87] rounded-full flex items-center justify-center hover:bg-[#C4E538] transition"
+              className="w-8 h-8 bg-white text-[#1e3a8a] rounded-full flex items-center justify-center hover:bg-[#3b82f6] transition"
             >
               yt
             </a>

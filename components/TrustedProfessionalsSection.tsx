@@ -10,7 +10,7 @@ const TrustedProfessionalsSection = () => {
     <section className="py-16 px-6 bg-gradient-to-b from-white to-gray-50">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-12">
-          <h2 className="text-4xl font-bold mb-4 bg-gradient-to-r from-[#004B87] to-[#006BB8] bg-clip-text text-transparent">
+          <h2 className="text-4xl font-bold mb-4 bg-gradient-to-r from-[#1e3a8a] to-[#60a5fa] bg-clip-text text-transparent">
             {t.trustedProfessionals.title}
           </h2>
           <p className="text-gray-600 max-w-2xl mx-auto">
@@ -28,7 +28,7 @@ const TrustedProfessionalsSection = () => {
               {t.services.thermalInstallations.serviceList.map(
                 (service, index) => (
                   <li key={index} className="flex items-start gap-3">
-                    <div className="w-6 h-6 rounded-full bg-[#004B87] flex items-center justify-center shrink-0 mt-1">
+                    <div className="w-6 h-6 rounded-full bg-[#1e3a8a] flex items-center justify-center shrink-0 mt-1">
                       <span className="text-white text-xs">✓</span>
                     </div>
                     <p className="text-gray-700 font-medium">{service}</p>
@@ -47,7 +47,7 @@ const TrustedProfessionalsSection = () => {
               className="object-cover rounded-2xl transition-transform duration-500 group-hover:scale-105"
               priority
             />
-            <div className="absolute inset-0 bg-gradient-to-t from-[#004B87]/90 via-[#004B87]/40 to-transparent flex items-end p-6">
+            <div className="absolute inset-0 bg-gradient-to-t from-[#1e3a8a]/90 via-[#1e3a8a]/40 to-transparent flex items-end p-6">
               <div className="text-white">
                 <p className="text-sm font-semibold mb-1">Instalații Termice</p>
                 <p className="text-xs opacity-90">32 de ani de experiență</p>
@@ -64,7 +64,7 @@ const TrustedProfessionalsSection = () => {
               {t.services.thermalInstallations.features.map(
                 (feature, index) => (
                   <li key={index} className="flex items-start gap-3">
-                    <div className="w-6 h-6 rounded-full bg-[#C4E538] flex items-center justify-center shrink-0 mt-1">
+                    <div className="w-6 h-6 rounded-full bg-[#3b82f6] flex items-center justify-center shrink-0 mt-1">
                       <span className="text-gray-900 text-xs font-bold">✓</span>
                     </div>
                     <p className="text-gray-700 font-medium">{feature}</p>
